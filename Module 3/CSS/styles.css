@@ -1,0 +1,53 @@
+ul>li {
+    display: inline-block;
+}
+
+nav {
+    text-align: center;
+    margin-top: 77px;
+    margin-bottom: 104px;
+    font-size: 14px;
+}
+
+li > a:hover {
+    color: #03a9f4;
+}
+
+.Navigation {
+   text-decoration: none;
+   color:#626262;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+span {
+    display: block;
+    color: #b4ad9e;
+    margin-bottom: 31px;
+}
+section {
+    display: inline-block;
+}
+
+.Image {
+    height: 316px;
+    width: 474px;
+    margin-bottom: 34px;
+}
+
+p {
+    margin-top: 41px;
+}
+
+footer {
+    text-align: center;
+}
+
+button {
+    height: 59px;
+    width: 164px;
+    background-color: #fff;
+    border-color: #626262;
+    padding: 22px 33px;
+    border-width: 1px 1px ;
+}

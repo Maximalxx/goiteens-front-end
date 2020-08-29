@@ -7,6 +7,12 @@ nav {
     margin-top: 77px;
     margin-bottom: 104px;
     font-size: 14px;
+    
+}
+
+li {
+    margin-left: 105px;
+    margin-right: 105px;
 }
 
 li > a:hover {
@@ -50,4 +56,9 @@ button {
     border-color: #626262;
     padding: 22px 33px;
     border-width: 1px 1px ;
+}
+
+.section1 {
+    width: 50%;
+    display: inline-block;
 }

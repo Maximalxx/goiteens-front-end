@@ -11,8 +11,8 @@ nav {
 }
 
 li {
-    margin-left: 105px;
-    margin-right: 105px;
+    margin-left: 132px;
+    margin-right: 132px;
 }
 
 li > a:hover {
@@ -33,6 +33,7 @@ span {
 }
 section {
     display: inline-block;
+    margin-left: 150px;
 }
 
 .Image {
@@ -59,6 +60,6 @@ button {
 }
 
 .section1 {
-    width: 50%;
+    width: 474px;
     display: inline-block;
 }

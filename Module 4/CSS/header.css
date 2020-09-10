@@ -1,0 +1,57 @@
+
+.header {
+    display: flex;
+    margin: auto 360px 127px 360px;
+    align-items: flex-end;
+}
+
+.logo {
+    margin-top: 28px;
+    width: 100px;
+    padding-right: 200px ;
+}
+
+.logo_link {
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1::first-letter {
+    text-transform: uppercase;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    list-style-type: none;
+    cursor: pointer;
+}
+ 
+ 
+.menu_item_link:hover {
+    color: #f38181;
+    border-bottom: 3px solid #f38181;
+}
+
+.menu_item:last-child {
+    padding-right: 0%;
+}
+.menu_item {
+    padding-right: 57px;
+    padding-bottom: 3px;
+    
+}
+
+.menu_item_link {
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    width: 400;
+}
+
+span {
+    text-transform: uppercase;
+}
+

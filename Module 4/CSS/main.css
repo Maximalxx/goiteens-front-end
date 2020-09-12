@@ -1,10 +1,14 @@
 .section {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .title {
-/*   display: block; */
+  display: block;
   font-family: "Kaushan Script", cursive;
   margin-bottom: 22px;
+}
+
+.title_of_section {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
 }

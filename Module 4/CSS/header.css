@@ -3,7 +3,7 @@
     display: flex;
     margin: auto auto 127px auto;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1446px;
 }
 

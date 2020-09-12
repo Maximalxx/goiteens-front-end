@@ -1,14 +1,16 @@
 
 .header {
     display: flex;
-    margin: auto 360px 127px 360px;
+    margin: auto auto 127px auto;
     align-items: flex-end;
+    justify-content: space-between;
+    width: 1446px;
 }
 
 .logo {
     margin-top: 28px;
     width: 100px;
-    padding-right: 200px ;
+    padding-right: 624px ;
 }
 
 .logo_link {

@@ -1,0 +1,33 @@
+.pre_section {
+  display: block;
+  /* position: absolute;
+  top: 224px;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+  margin-bottom: 66px;
+  padding-top: 178px;
+}
+
+.pre_section_title {
+  display: block;
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 22px;
+  font-size: 24px;
+}
+
+.pre_section_text {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  /* margin-bottom: 111px; */
+  font-size: 30px;
+}
+
+.pre_section_text::after {
+  content: "";
+  display: block;
+  width: 61px;
+  height: 4px;
+  background-color: #f38181;
+  margin: 41px auto 0 auto;
+}

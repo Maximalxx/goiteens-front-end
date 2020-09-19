@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  position: fixed;
+  /* background-color: #fff; */
+  width: 1224px;
+  margin-left: 180px;
+  width: 1224px;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 128px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f70e0e;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.logo {
+  margin-top: 28px;
+  width: 100px;
+  padding-right: 624px;
+}
+
+.logo_link {
+  color: #95e1d3;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1::first-letter {
+  text-transform: uppercase;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  list-style-type: none;
+  cursor: pointer;
+  /*  position: relative; */
+}
+
+.menu_item_link:hover {
+  color: #f38181;
+}
+
+.menu_item:last-child {
+  padding-right: 0%;
+}
+.menu_item {
+  padding-right: 57px;
+  padding-bottom: 3px;
+}
+
+.menu_item_link {
+  color: #95e1d3;
+  font-family: "Montserrat", sans-serif;
+  width: 400;
+}
+
+span {
+  text-transform: uppercase;
+}

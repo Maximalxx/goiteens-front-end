@@ -1,89 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
-
-
-
-
-
-
-
-
-ul > li {
+.menu > li {
   display: inline-block;
+}
+
+.menu {
+  padding-left: 0;
 }
 
 nav {
   text-align: center;
-  margin-top: 77px;
-  margin-bottom: 104px;
   font-size: 14px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-transform: uppercase;
+  width: 900px;
+  margin: 77px auto 104px auto;
 }
 
 li {
-  margin-left: 132px;
-  margin-right: 132px;
+  /* margin-left: 132px; */
+  margin-right: 121px;
 }
 
-li > a:hover {
+.Navigation > a:hover {
   color: #03a9f4;
 }
 
-.Navigation {
+.Navigation:last-child {
+  margin-right: 0;
+}
+
+.Navigation > a {
   text-decoration: none;
   color: #626262;
   font-size: 14px;
   font-weight: 400;
+  margin-right: auto;
 }
 
 span {
   display: block;
   color: #b4ad9e;
   margin-bottom: 31px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
-}
-section {
-  display: inline-block;
-  margin-left: 150px;
+  font-weight: 300;
 }
 
 .Image {
-  height: 316px;
-  width: 474px;
+  height: auto;
+  width: 420px;
   margin-bottom: 34px;
 }
 
 p {
   margin-top: 41px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 footer {
   text-align: center;
+  margin-bottom: 70px;
 }
 
 button {
-  height: 59px;
-  width: 164px;
+  /* height: 60px;
+  width: 164px; */
   background-color: #fff;
   border-color: #626262;
-  padding: 22px 33px;
+  padding: 22px 34px;
   border-width: 1px 1px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(98, 98, 98);
 }
 
 .section1 {
-  width: 474px;
+  width: 420px;
   display: inline-block;
+  /*  margin-left: 150px; */
+  margin-bottom: 130px;
+}
+
+.section1:nth-last-child(1) {
+  margin-bottom: 54px;
+}
+
+.section1:nth-last-child(2) {
+  margin-bottom: 54px;
 }
 
 .Title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.section_wrapper {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.margin_left {
+  margin-left: 60px;
+}
+
+.section_text {
+  color: #626262;
 }

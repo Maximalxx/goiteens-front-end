@@ -10,19 +10,22 @@
   padding-bottom: 128px;
 }
 
-.dropdown-content {
+.sub_menu {
   display: none;
-  position: absolute;
-  background-color: #f70e0e;
-  min-width: 160px;
-  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-  z-index: 1;
+  /* text-transform: uppercase;
+  list-style-type: none; */
+
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.sub_menu_item {
+
 }
+
+ .menu_item:hover > .sub_menu {
+   display: block;
+ } 
+
+
 
 .logo {
   margin-top: 28px;

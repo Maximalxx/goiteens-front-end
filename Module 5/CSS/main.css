@@ -31,3 +31,33 @@
   background-color: #f38181;
   margin: 41px auto 0 auto;
 }
+
+.card {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: flex-start;
+  width: 380px;
+  height: 69px;
+  margin-bottom: 100px;
+  margin-right: 71px;
+}
+
+.card_title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card_info {
+}
+
+.card_info::before {
+  content: "";
+  background-image: url("ALARM.png");
+  width: 32px;
+  height: 31px;
+  
+
+}

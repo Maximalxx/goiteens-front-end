@@ -5,14 +5,25 @@ main {
 
 .pre_section {
   text-align: center;
+  display: block;
   margin-bottom: 66px;
 }
 
 .section {
+  /* display: flex;
+  justify-content: space-between;
+  margin-bottom: 92px; */
+  /* width: 1138px; */
+  /* margin: 0 auto; */
+}
+
+.section1_wrapper {
   display: flex;
+  width: 1208px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 92px;
+  margin: 0 auto;
 }
 
 .title {
@@ -43,7 +54,7 @@ main {
   width: 380px;
   height: 69px;
   margin-bottom: 100px;
-  margin-right: 71px;
+  /* margin-right: 71px; */
 }
 
 .card_title {
@@ -52,6 +63,7 @@ main {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  color: rgb(51, 51, 51);
 }
 
 .card_image {
@@ -67,6 +79,9 @@ main {
 
 .card_text {
   font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  text-align: left;
 }
 
 .pre_section_text {
@@ -74,6 +89,7 @@ main {
   width: 941px;
   margin: 46px auto auto auto;
   margin-bottom: 91px;
+  color: #999999;
 }
 
 .pre_section2 {
@@ -86,9 +102,9 @@ main {
 }
 
 .section2 {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  margin-bottom: 145px;
+  margin-bottom: 145px; */
 }
 
 .card_from_second_section {
@@ -108,6 +124,7 @@ main {
 .name {
   padding-bottom: 15px;
   font-family: "Montserrat", sans-serif;
+  color: #666666;
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -118,4 +135,10 @@ main {
   font-style: italic;
   font-weight: 400;
   color: #b3b3b3;
+}
+
+.section2_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 145px;
 }

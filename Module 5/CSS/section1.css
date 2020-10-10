@@ -1,0 +1,128 @@
+.pre_section {
+  display: block;
+  text-align: center;
+  margin-bottom: 66px;
+  padding-top: 178px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1138px;
+  margin: 0 auto;
+}
+
+.section1_wrapper {
+  margin-bottom: 92px;
+}
+
+.pre_section_title {
+  display: block;
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 22px;
+  font-size: 24px;
+}
+
+.pre_section_subtitle {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  /* margin-bottom: 111px; */
+  font-size: 30px;
+}
+
+.pre_section_subtitle::after {
+  content: "";
+  display: block;
+  width: 61px;
+  height: 4px;
+  background-color: #f38181;
+  margin: 41px auto 0 auto;
+}
+
+.card {
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start;
+  /* width: 380px; */
+  height: 69px;
+  margin-bottom: 100px;
+  /* margin-right: 71px; */
+}
+
+.card_text {
+  color: rgba(153, 153, 153);
+}
+
+.card_title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card_info {
+  width: 269px;
+}
+
+.card1::before {
+  content: "";
+  background-image: url("../images/icons/ALARM.png");
+  width: 32px;
+  height: 31px;
+  padding-left: 29px;
+  background-repeat: no-repeat;
+  
+}
+
+.card2::before {
+  content: "";
+  background-image: url("../images/icons/WEBDESIGN.png");
+  width: 33px;
+  height: 33px;
+  padding-left: 29px;
+  background-repeat: no-repeat;
+  
+}
+
+.card3::before {
+  content: "";
+  background-image: url("../images/icons/COMPUTER.png");
+  width: 32px;
+  height: 31px;
+  padding-left: 29px;
+  background-repeat: no-repeat;
+  
+}
+
+.card4::before {
+  content: "";
+  background-image: url("../images/icons/SEO.png");
+  width: 33px;
+  height: 33px;
+  padding-left: 29px;
+  background-repeat: no-repeat;
+  
+}
+
+.card5::before {
+  content: "";
+  background-image: url("../images/icons/HOME.png");
+  width: 32px;
+  height: 31px;
+  padding-left: 29px;
+  background-repeat: no-repeat;
+  
+}
+
+.card6::before {
+  content: "";
+  background-image: url("../images/icons/BOX.png");
+  width: 33px;
+  height: 33px;
+  padding-left: 29px;
+  background-repeat: no-repeat;
+  
+}
+

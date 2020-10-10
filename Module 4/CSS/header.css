@@ -61,6 +61,7 @@ h1::first-letter {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 12px;
     /* width: 400; */
+    border-bottom: 3px solid transparent;
 }
 
 span {

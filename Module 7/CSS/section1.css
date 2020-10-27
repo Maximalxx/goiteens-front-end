@@ -1,0 +1,29 @@
+
+.section1 {
+    text-align: center;
+}
+
+.section1_name {
+    margin-bottom: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 20px;
+    font-weight: bold;
+}
+
+.section1_title {
+    margin-bottom: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section1_text {
+    margin-bottom: 18px;
+}
+
+.section1_button{
+    margin-bottom: 139px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 14px;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  margin: 55px auto 127px auto;
+  width: 933px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_link {
+  font-family: "Pinyon Script", cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 26px;
+  color: #fed136;
+  outline: none;
+}
+
+.menu {
+  display: flex;
+  width: 480px;
+  justify-content: space-between;
+}
+
+.menu_item_link {
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.menu_item_link:hover {
+  color: #fed136;
+}

@@ -1,0 +1,59 @@
+
+
+.section1 {
+  width: 934px;
+  margin: 0 auto 115px;
+}
+
+.pre_section {
+  text-align: center;
+  margin-bottom: 79px;
+}
+
+.pre_section_title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+.pre_section_text {
+  font-family: "PT Serif", serif;
+  color: #777777;
+  font-size: 14pt;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 277px;
+  text-align: center;
+}
+
+.card_img_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #fed136 solid 3px;
+  width: 69px;
+  height: 68px;
+  border-radius: 50%;
+  margin: 0 auto 27px;
+}
+
+.card_img {
+  padding: 16px 13px 16px 14px;
+ 
+}
+
+.card_title {
+  margin-bottom: 18px;
+}
+
+.card_text {
+  text-align: left;
+}

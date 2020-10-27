@@ -1,0 +1,38 @@
+
+
+.header_wrapper { 
+    background-image: url(../images/peoplesMOBILE.jpg);
+     background-color: rgba(0, 0, 0, 0.3)
+}
+
+.log_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    margin: 0 auto 115px;
+    padding-top: 19px;
+    
+    
+}
+
+.log_in {
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.sing_up {
+    background-color: transparent;
+    text-transform: capitalize;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 13px 18px 10px 20px;
+    border-radius: 50px;
+    border-width: 2px;
+}

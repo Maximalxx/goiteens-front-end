@@ -1,76 +1,72 @@
-
-
 .section2 {
-    background-color: #222222;
-    background-image: url(../images/MapImage@1X.png);
-    background-repeat: no-repeat;
-    background-position: top 120px right 0;
-    background-size: 614px 537px;  
+  background-color: #222222;
+  background-image: url(../images/MapImage@1X.png);
+  background-repeat: no-repeat;
+  background-position: top 120px right 0;
+  background-size: 614px 537px;
 }
 
-
-
 .section2_content_wrapper {
-    width: 945px;
-    margin: 0 auto;
+  width: 945px;
+  margin: 0 auto;
 }
 
 .pre_section2 {
-    padding-top: 115px;
+  padding-top: 115px;
 }
 
 .color2 {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .text_input {
-    display: block;
-    margin-bottom: 28px;
-    width: 456px;
-    height: 51px;
-    text-transform: uppercase;
-    padding: 20px 21px;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #bbbbbb;
+  display: block;
+  margin-bottom: 28px;
+  width: 456px;
+  height: 51px;
+  text-transform: uppercase;
+  padding: 20px 21px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #bbbbbb;
 }
 
 .text_input:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .inputs {
-    display: flex;
-    margin-bottom: 29px;
+  display: flex;
+  margin-bottom: 29px;
 }
 
 .textarea_form {
-    width: 456px;
-    height: 211px;
-    text-transform: uppercase;
-    padding: 20px 21px;
-    border-radius: 5px;
-    margin-left: 29px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #bbbbbb;
+  width: 456px;
+  height: 211px;
+  text-transform: uppercase;
+  padding: 20px 21px;
+  border-radius: 5px;
+  margin-left: 29px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #bbbbbb;
 }
 
 .submit_wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .submit_input {
-    /* width: 241px;
+  /* width: 241px;
     height: 61px; */
-    text-transform: uppercase;
-    padding: 26px 47px 27px 48px;
-    border-radius: 5px;
-    margin-bottom: 115px;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    background-color: #FED136;
-    color: #ffffff;
+  text-transform: uppercase;
+  padding: 26px 47px 27px 48px;
+  border-radius: 5px;
+  margin-bottom: 115px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #fed136;
+  color: #ffffff;
 }

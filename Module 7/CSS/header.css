@@ -1,8 +1,11 @@
 
 
 .header_wrapper { 
-    background-image: url(../images/peoplesMOBILE.jpg);
-     background-color: rgba(0, 0, 0, 0.3)
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/peoplesMOBILE.jpg);
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-repeat: no-repeat;
+    background-size: 321px 541px;
+    
 }
 
 .log_buttons {
@@ -23,6 +26,7 @@
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .sing_up {
@@ -35,4 +39,84 @@
     padding: 13px 18px 10px 20px;
     border-radius: 50px;
     border-width: 2px;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.logo {
+    margin-bottom: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo_link {
+ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header_wrapper { 
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/peoplesTABLET.jpg);
+        background-size: 769px 700px;
+        
+    }
+
+    .header{
+     
+    }
+
+    .log_buttons {
+        width: 165px;
+        margin: 0 auto 115px;
+        padding-top: 19px;
+        justify-content: flex-end;
+        
+    }
+    
+    .log_in {
+        border: none;
+        background-color: transparent;
+        text-transform: capitalize;
+        outline: none;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: #ffffff;
+        margin-right: 19px;
+    }
+    
+    .sing_up {
+        background-color: transparent;
+        text-transform: capitalize;
+        outline: none;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding: 13px 18px 10px 20px;
+        border-radius: 50px;
+        border-width: 2px;
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+
+    .logo {
+        margin-bottom: 38px;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 46px;
+        left: 49px;
+    }
+    
+    .logo_link {
+     
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+
 }

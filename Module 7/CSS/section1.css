@@ -36,3 +36,49 @@
     border: none;
     color: #ffffff;
 }
+
+@media screen and (min-width: 768px) {
+
+    .section1 {
+        text-align: center;
+    }
+    
+    
+    
+    .section1_title {
+        margin: 226px auto 40px;
+        font-size: 52px;
+        width: 550px;
+
+  }
+    
+    .section1_text {
+        margin: 0 auto 33px;
+        width: 400px;
+        font-size: 24px;
+    }
+    
+    .section1_button{
+        margin-bottom: 224px;
+        padding: 15px 24px 12px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

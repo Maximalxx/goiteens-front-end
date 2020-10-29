@@ -1,0 +1,111 @@
+.section2 {
+    text-align: center;
+}
+
+.sec2_title {
+    margin: 68px auto 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+ } 
+
+.card {
+    position: relative;
+}
+
+
+.card_img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    
+}
+
+.personal_icon1_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4E50;
+    padding: 7px 8px 9px;
+    border: solid 5px white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 95px;
+    right: 100px; 
+}
+
+.personal_icon2_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFA507;
+    padding: 7px 8px 9px;
+    border: solid 5px white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 95px;
+    right: 100px; 
+}
+
+.personal_icon3_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1CD7AD;
+    padding: 7px 8px 9px;
+    border: solid 5px white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 95px;
+    right: 100px; 
+}
+
+.personal_icon4_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4E73DB;
+    padding: 7px 8px 9px;
+    border: solid 5px white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 95px;
+    right: 100px; 
+}
+
+.card_info {
+    width: 232px;
+    margin: 0 auto 28px;
+}
+
+.card_title {
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+}
+
+
+.section2_button {
+    padding: 15px 74px 12px;
+    background-color: #fff;
+    outline: none;
+    color: #FF4E50;
+    border: #FF4E50 3px solid;
+    border-radius: 50px;
+    margin-bottom: 57px;
+}

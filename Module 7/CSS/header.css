@@ -11,7 +11,7 @@
 .log_buttons {
   display: flex;
   justify-content: space-between;
-  width: 201px;
+  width: 205px;
   margin: 0 auto 115px;
   padding-top: 19px;
 }
@@ -26,6 +26,8 @@
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  border: solid 2px transparent;
+  border-radius: 50px;
   padding: 13px 18px 10px 20px;
   color: #ffffff;
 }
@@ -44,6 +46,8 @@
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   border: none;
+  border: solid 2px transparent;
+  border-radius: 50px;
   padding: 13px 18px 10px 20px;
   color: #ffffff;
 }
@@ -85,7 +89,6 @@
 
   .log_buttons {
     padding-top: 0;
-    width: 165px;
     margin: 0;
   }
 
@@ -105,13 +108,5 @@
 
   .header {
     width: 940px;
-  }
-
-  .log_buttons {
-    right: 251px;
-  }
-
-  .logo {
-    left: 250px;
   }
 }

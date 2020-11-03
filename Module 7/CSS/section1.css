@@ -1,84 +1,57 @@
-
 .section1 {
-    text-align: center;
+  text-align: center;
 }
 
-
-
 .section1_title {
-    margin: 0 auto 19px;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
-    color: #ffffff;
+  margin: 0 auto 19px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .section1_text {
-    margin: 0 auto 18px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    width: 217px;
-    font-size: 18px;
-    color: #ffffff;
-
+  margin: 0 auto 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  width: 217px;
+  font-size: 18px;
+  color: #ffffff;
 }
 
-.section1_button{
-    margin-bottom: 139px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 15px 52px 12px;
-    background-color: #FF4E50;
-    border-radius: 50px;
-    outline: none;
-    border: none;
-    color: #ffffff;
+.section1_button {
+  margin-bottom: 139px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 52px 12px;
+  background-color: #ff4e50;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
-
-    .section1 {
-        text-align: center;
-    }
-    
-    
-    
-    .section1_title {
-        margin: 226px auto 40px;
-        font-size: 52px;
-        width: 550px;
-
+  .section1 {
+    text-align: center;
   }
-    
-    .section1_text {
-        margin: 0 auto 33px;
-        width: 400px;
-        font-size: 24px;
-    }
-    
-    .section1_button{
-        margin-bottom: 224px;
-        padding: 15px 24px 12px;
 
-    }
+  .section1_title {
+    margin: 226px auto 40px;
+    font-size: 52px;
+    width: 550px;
+  }
 
+  .section1_text {
+    margin: 0 auto 33px;
+    width: 400px;
+    font-size: 24px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .section1_button {
+    margin-bottom: 224px;
+    padding: 15px 24px 12px;
+  }
 }

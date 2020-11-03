@@ -11,10 +11,12 @@
 .log_buttons {
   display: flex;
   justify-content: space-between;
-  width: 160px;
+  width: 201px;
   margin: 0 auto 115px;
   padding-top: 19px;
 }
+
+
 
 .log_in {
   border: none;
@@ -24,8 +26,15 @@
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  padding: 13px 18px 10px 20px;
   color: #ffffff;
 }
+
+.log_in:hover {
+  border: solid 2px white;
+  border-radius: 50px;
+}
+
 
 .sing_up {
   background-color: transparent;
@@ -34,11 +43,16 @@
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  border: solid 2px white;
+  border: none;
   padding: 13px 18px 10px 20px;
-  border-radius: 50px;
   color: #ffffff;
 }
+
+.sing_up:hover {
+  border: solid 2px white;
+  border-radius: 50px;
+}
+
 
 .logo {
   margin-bottom: 38px;

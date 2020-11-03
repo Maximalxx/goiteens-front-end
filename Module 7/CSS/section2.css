@@ -7,6 +7,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: bold;
+  color: #333333;
 }
 
 .card {
@@ -91,6 +92,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
+  color: #333333;
 }
 
 .card_text {
@@ -108,6 +110,7 @@
   border: #ff4e50 3px solid;
   border-radius: 50px;
   margin-bottom: 57px;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 768px) {
